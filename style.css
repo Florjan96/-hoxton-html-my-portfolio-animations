@@ -15,13 +15,14 @@
 
 .projects{
     background-color:hsl(22deg 23% 91%) ;
-    height: 25vh;
+    height: 30vh;
 }
 
 
 .Experience{
     background-color: #5bc4eb; ;
 height: 30vh;
+
 
 }
 
@@ -67,7 +68,9 @@ gap:15px;
 
 .projects{
     display: grid;
-    padding:12px;
+    padding-bottom:13px ;
+
+    
 }
 
 
@@ -76,6 +79,7 @@ gap:15px;
     grid-template-columns: 200px 200px 200px;
    place-content: center;
     list-style:none;
+    gap:20px;
 }
 
 
@@ -85,7 +89,10 @@ gap:15px;
 
 .project-item{
     border:1px solid;
-    margin:14px;
+    margin:1px;
+    height: 170px;
+    width:200px;
+    align-content: center;
 }
 
 .Swine-Meeper{
@@ -93,16 +100,76 @@ gap:15px;
   
 }
 
-.go-to-project{
-    border:1px solid;
-}
 
 .project-item a{
 
     text-decoration: none;
     background-color: #fc7a60 ;
     color:white;
-    justify-items: center;
-    border-radius:4px;
-    width:50px;
+    padding-right:104px;
+
+    border-radius:1px;
+    
+}
+
+.project-item img{
+    width:73%;
+    justify-self: center;
+}
+
+.project-item .lottery{
+    width:75%;
+}
+
+.project-item .stopwatch{
+    width:50%;
+    
+}
+
+
+footer{
+    background-color: black;
+    
+
+color:white;
+text-align: center;
+list-style: none;
+}
+
+.Experience h3{
+    text-align: center;
+}
+
+    
+
+.Experience-main{
+    margin-left: 200px;
+    margin-top:20px;
+
+}
+
+.Experience-main-list{
+    border:1px solid;
+    background-color: white;
+    display: grid;
+    grid-auto-flow: column;
+    width:400px;
+    height: 50px;
+    text-align: center;
+ gap:9px;
+ 
+    
+}
+
+.Experience-main-list img{
+
+width:40px;
+}
+
+
+
+footer a{
+    color:white;
+    height: 30px;
+   
 }
