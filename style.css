@@ -2,7 +2,8 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    font-family:sans-serif
+    font-family:sans-serif; 
+
 }
 
 
@@ -26,11 +27,16 @@ height: 30vh;
 
 }
 
+
+
 .top header{
     background-color:hsl(78deg 10% 20%);
     color:rgb(240, 240, 232);
     display: grid;
     grid-template-columns:1fr auto;
+    height: 50px;
+
+   
     
   
 }
@@ -41,10 +47,23 @@ list-style:none;
 gap:15px;
 }
 
+.nav-list a{
+    color:white;
+    text-decoration: none;
+    align-items: center;
+    font-weight: 30px;
+}
+
+.nav-list a:hover{
+
+    color:#fc7a60;
+}
+
 .inner-text-description{
     border:1px solid;
     width:450px;
-    margin:150px 0px 0px 300px;
+    height: 300px;
+    margin:50px 0px 0px 550px;
     background-color: hsl(78deg 10% 20%);
     padding:5px;
 }
@@ -61,9 +80,8 @@ gap:15px;
     padding-top:2px;
 }
 
-.svg-image img{
-    align-items:center;
-    
+.img-svg{
+    padding-bottom:140px;
 }
 
 .projects{
@@ -76,10 +94,10 @@ gap:15px;
 
 .project-3{
     display:grid;
-    grid-template-columns: 200px 200px 200px;
+    grid-template-columns:200px 200px 200px;
    place-content: center;
     list-style:none;
-    gap:20px;
+    gap:3rem;
 }
 
 
@@ -90,9 +108,12 @@ gap:15px;
 .project-item{
     border:1px solid;
     margin:1px;
-    height: 170px;
     width:200px;
     align-content: center;
+}
+
+.project-item a:hover{
+ opacity:0.4;
 }
 
 .Swine-Meeper{
@@ -113,12 +134,12 @@ gap:15px;
 }
 
 .project-item img{
-    width:73%;
+    width:100%;
     justify-self: center;
 }
 
 .project-item .lottery{
-    width:75%;
+    width:100%;
 }
 
 .project-item .stopwatch{
@@ -143,9 +164,9 @@ list-style: none;
     
 
 .Experience-main{
-    margin-left: 200px;
+    margin-left: 550px;
     margin-top:20px;
-
+gap:1rem;
 }
 
 .Experience-main-list{
@@ -153,10 +174,10 @@ list-style: none;
     background-color: white;
     display: grid;
     grid-auto-flow: column;
-    width:400px;
+    width:500px;
     height: 50px;
     text-align: center;
- gap:9px;
+
  
     
 }
@@ -166,10 +187,26 @@ list-style: none;
 width:40px;
 }
 
-
+footer{
+    height: 60px;
+}
 
 footer a{
     color:white;
-    height: 30px;
+    align-items: center;
+    text-decoration: none;
+   padding-top:134px;
    
 }
+
+footer a h3 {
+padding-top:20px;
+
+
+
+}
+
+footer a h3:hover {
+ 
+    color:#fc7a60;
+   box-shadow: #5bc4eb;
